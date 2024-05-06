@@ -1,4 +1,4 @@
-from simple_event_handler import SimpleEventHandler
+from simple_event_handler.simple_event_handler import SimpleEventHandler
 
 
 def on_click():
