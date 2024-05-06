@@ -5,7 +5,6 @@ build-backend = "hatchling.build"
 [project]
 name = "SimpleEventHandler"
 version = "0.1"
-dependencies = ["threading"]
 requires-python = ">=3.9"
 
 [project.urls]
