@@ -5,9 +5,11 @@ build-backend = "hatchling.build"
 [project]
 name = "SimpleEventHandler"
 version = "0.1"
-dynamic = ["version"]
 dependencies = ["threading"]
 requires-python = ">=3.9"
 
 [project.urls]
 Homepage = "https://github.com/Resch-Said/SimpleEventHandler"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
