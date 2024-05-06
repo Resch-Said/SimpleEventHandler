@@ -10,6 +10,6 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 setup(
     name="SimpleEventHandler",  # Required
     version="0.1",  # Required
-    packages=find_packages(where="src"),  # Required
+    packages=find_packages(),  # Required
     python_requires=">=3.9, <4",
 )
